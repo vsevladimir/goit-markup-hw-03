@@ -1,0 +1,138 @@
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: #2E2F42 0.4;
+    --hero-background: #2E2F42 0.7;
+    --white-background: #FFFFFF;
+    --modal-background: #FCFCFC;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    word-spacing: 0em;
+}
+
+.logo-iris {
+    color: var(--primary-brand);
+}
+
+.header-logo-dark {
+    color: var(--dark);
+}
+
+.footer-logo-white {
+    color: var(--light);
+}
+.link {
+    text-decoration: none;
+}
+
+.link:is(:hover,:focus) {
+    color:var(--pressed-state);
+}
+
+/* headers */
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-background);
+}
+
+.section-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.top-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.footer-paragraph {
+    color: var(--light);
+}
+
+.header-link {
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.header-contact-link {
+    color: var(--text);
+}
+
+.hero {
+    background-color: var(--dark);
+}
+
+.footer {
+    background-color: var(--dark);
+}
+
+/* buttons */
+
+.buttons {
+    cursor: pointer;font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    
+}
+
+.hero-button {
+    background-color: var(--primary-brand);
+    color: var(--white-background);
+}
+
+.hero-button:is(:hover,:focus) {
+    background-color: var(--pressed-state);
+}
+
+.project-button {
+    background-color: var(--light);
+    color: var(--primary-brand);
+
+}
+
+.project-button:is(:hover,:focus) {
+    background-color: var(--pressed-state);
+    color: var(--white-background);
+}
