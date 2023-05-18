@@ -54,6 +54,9 @@ body {
 .logo-white {
     color: var(--light);
 }
+
+/* links */
+
 .link {
     text-decoration: none;
 }
