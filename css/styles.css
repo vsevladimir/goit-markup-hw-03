@@ -62,8 +62,15 @@ body {
     color:var(--pressed-state);
 }
 
-/* 2 section */
+/* 4 section */
 
+.team {
+    background-color: var(--light);
+}
+
+.team-item {
+    background-color: var(--white-background);
+}
 
 /* headers */
 
