@@ -28,6 +28,8 @@ body {
     list-style: none;
 }
 
+/* logo */
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -37,17 +39,15 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     word-spacing: 0em;
-}
-
-.logo-iris {
     color: var(--primary-brand);
 }
 
-.header-logo-dark {
+
+.logo-dark {
     color: var(--dark);
 }
 
-.footer-logo-white {
+.logo-white {
     color: var(--light);
 }
 .link {
