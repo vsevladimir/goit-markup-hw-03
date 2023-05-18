@@ -70,12 +70,13 @@ body {
 }
 
 .section-header {
+    letter-spacing: 0.02em;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    text-align: center
 }
 
 .top-header {
