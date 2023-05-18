@@ -148,6 +148,8 @@ body {
     background-color: var(--pressed-state);
 }
 
+/* portfolio */
+
 .project-button {
     background-color: var(--light);
     color: var(--primary-brand);
@@ -157,4 +159,8 @@ body {
 .project-button:is(:hover,:focus) {
     background-color: var(--pressed-state);
     color: var(--white-background);
+}
+
+.project-paragraph {
+    color: var(--text);
 }
