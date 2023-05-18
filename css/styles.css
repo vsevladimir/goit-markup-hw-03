@@ -24,6 +24,10 @@ body {
     background-color: var(--white-background);
 }
 
+.contacts {
+    font-style: normal
+}
+
 .list {
     list-style: none;
 }
