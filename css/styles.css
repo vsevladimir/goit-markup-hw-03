@@ -66,6 +66,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--white-background);
+    text-align: center
 }
 
 .section-header {
