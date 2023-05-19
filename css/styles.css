@@ -15,8 +15,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -25,7 +23,7 @@ body {
 }
 
 .contacts {
-    font-style: normal
+    font-style: normal;
 }
 
 .list {
@@ -78,7 +76,6 @@ body {
 /* headers */
 
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -87,7 +84,6 @@ body {
 }
 
 .section-header {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
@@ -130,7 +126,8 @@ body {
 /* buttons */
 
 .buttons {
-    cursor: pointer;font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
