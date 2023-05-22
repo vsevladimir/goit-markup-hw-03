@@ -39,6 +39,10 @@ ol {
     padding: 0;
 }
 
+img {
+    display: block
+}
+
 .contacts {
     font-style: normal;
 }
