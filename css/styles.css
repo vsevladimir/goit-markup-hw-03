@@ -241,7 +241,12 @@ img {
 }
 
 .footer-paragraph {
-    padding-top: 16px;
+    max-width: 264px;
+}
+
+.logo-footer {
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 /* module 3 portfolio */
