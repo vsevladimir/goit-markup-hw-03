@@ -165,6 +165,7 @@ img {
     min-width: 169px;
     height: 56px;
     border: none;
+    display: block;
 }
 
 .hero-button:is(:hover,:focus) {
