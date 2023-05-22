@@ -95,7 +95,9 @@ ol {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--white-background);
-    text-align: center
+    text-align: center;
+    margin-bottom: 42px;
+
 }
 
 .section-header {
@@ -104,7 +106,7 @@ ol {
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color: var(--dark);
-    text-align: center
+    text-align: center;
 }
 
 
@@ -180,6 +182,54 @@ ol {
 
 .container {
     width: 1158px;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
     margin: 0 auto;
+}
+
+.footer {
+    padding: 100px 0
+}
+
+.header {
+    padding: 24px 0;
+}
+
+.hero {
+    padding: 188px 0;
+}
+
+.skills {
+    padding: 120px 0;
+}
+
+.skills-header {
+    margin-bottom: 8px;
+}
+
+.wedoing {
+    margin-bottom: 120px;
+}
+
+.wedoing-header {
+    margin-bottom: 72px;
+}
+
+.team {
+    padding: 120px 0;
+}
+
+.team-header {
+    margin-bottom: 72px;
+}
+
+.team-pic {
+    margin-bottom: 32px;
+}
+
+.team-header-name {
+    margin-bottom: 8px;
+}
+
+.footer-paragraph {
+    padding-top: 16px;
 }
