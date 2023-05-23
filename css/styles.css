@@ -44,6 +44,9 @@ img {
 
 .contacts {
     font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .list {
@@ -271,4 +274,13 @@ img {
 
 .header-list {
     display: flex;
+    gap: 40px;
+}
+
+.header-item {
+    padding: 24px 0;
+}
+
+.header-contact-list {
+    gap: 40px;
 }
