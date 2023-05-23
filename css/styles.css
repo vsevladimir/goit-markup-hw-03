@@ -259,3 +259,16 @@ img {
 .header .container {
     display: flex;
 }
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo-header {
+    margin-right: 76px;
+}
+
+.header-list {
+    display: flex;
+}
