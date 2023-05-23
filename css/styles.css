@@ -103,6 +103,7 @@ img {
 
 .team {
     background-color: var(--light);
+    padding: 120px 0;
 }
 
 .team-item {
@@ -229,15 +230,11 @@ img {
 }
 
 .wedoing {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .wedoing-header {
     margin-bottom: 72px;
-}
-
-.team {
-    padding: 120px 0;
 }
 
 .team-header {
@@ -250,6 +247,11 @@ img {
 
 .team-header-name {
     margin-bottom: 8px;
+    text-align: center;
+}
+
+.team-paragraph {
+    text-align: center;
 }
 
 .logo-footer {
@@ -306,3 +308,35 @@ img {
     align-items: center;
 }
 
+/* list sectiom */
+
+.list-skills {
+    display: flex;
+    gap: 24px;
+}
+
+.item-skills {
+    flex-basis: calc((100% - 3 * 24px) / 4)
+}
+
+/* wedoing section */
+
+.wedoing-list {
+    display: flex;
+    gap: 24px;
+}
+
+.wedoing-item {
+    flex-basis: calc((100% - 2 * 24px) / 3);
+}
+
+/* team section */
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
