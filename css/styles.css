@@ -125,6 +125,7 @@ img {
 
 .footer-paragraph {
     color: var(--light);
+    max-width: 264px;
 }
 
 .header-link {
@@ -138,10 +139,12 @@ img {
 
 .hero {
     background-color: var(--dark);
+    padding: 188px 0;
 }
 
 .footer {
     background-color: var(--dark);
+    padding: 100px 0;
 }
 
 /* buttons */
@@ -153,7 +156,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    
 }
 
 .hero-button {
@@ -196,17 +198,9 @@ img {
     margin: 0 auto;
 }
 
-.footer {
-    padding: 100px 0
-}
-
 .header {
     padding: 24px 0;
     border-bottom: 1px solid var(--accent);
-}
-
-.hero {
-    padding: 188px 0;
 }
 
 .skills {
@@ -241,10 +235,6 @@ img {
     margin-bottom: 8px;
 }
 
-.footer-paragraph {
-    max-width: 264px;
-}
-
 .logo-footer {
     margin-bottom: 16px;
     display: inline-block;
@@ -264,4 +254,8 @@ img {
     border: 1px solid var(--accent);
     border-radius: 4px;
     padding: 12px 24px;
+}
+
+.header .container {
+    display: flex;
 }
