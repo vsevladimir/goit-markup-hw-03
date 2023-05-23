@@ -305,3 +305,7 @@ img {
     display: flex;
     align-items: center;
 }
+
+.header-contact-item {
+    padding: 24px 0;
+}
