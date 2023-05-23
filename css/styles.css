@@ -152,7 +152,6 @@ img {
 
 .header-contact-link {
     color: var(--text);
-    padding: 24px 0;
 }
 
 .hero {
@@ -292,7 +291,7 @@ img {
     gap: 40px;
 }
 
-.header-item {
+.header-link {
     padding: 24px 0;
 }
 
