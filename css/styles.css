@@ -196,12 +196,12 @@ img {
 .project-button {
     background-color: var(--light);
     color: var(--primary-brand);
-
 }
 
 .project-button:is(:hover,:focus) {
     background-color: var(--pressed-state);
     color: var(--white-background);
+    border: 1px solid transparent;
 }
 
 .project-paragraph {
@@ -337,11 +337,43 @@ img {
 }
 
 .team-item {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
 .container-members {
     padding: 32px 16px;
     max-width: 264px;
+}
+
+/* portfolio */
+
+/* first section */
+
+.projects-list-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+
+.projects-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.container-project {
+    padding: 32px 16px;
+    border: 1px solid var(--accent);
+    border-top: none;
+}
+
+.project-header {
+    margin-bottom: 8px
 }
